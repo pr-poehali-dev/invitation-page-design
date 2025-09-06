@@ -82,6 +82,22 @@ export default function Index() {
                 <Icon name="Mail" size={48} className="text-romantic-pink mx-auto" />
               </div>
               
+              {/* Photo */}
+              <div className="mb-8">
+                <div className="relative inline-block animate-scale-in">
+                  <div className="rounded-full overflow-hidden shadow-2xl border-4 border-romantic-pink/30 w-48 h-48 mx-auto">
+                    <img 
+                      src="https://cdn.poehali.dev/files/d2eed0e0-03f5-4961-8e6d-da55def30fc5.png" 
+                      alt="Наше милое селфи" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute -bottom-2 -right-2 bg-romantic-pink rounded-full p-2 shadow-lg animate-pulse">
+                    <Icon name="Heart" size={20} className="text-white" />
+                  </div>
+                </div>
+              </div>
+              
               <h3 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-8 animate-fade-in">Ну вот само же приглашение</h3>
               
               <div className="bg-romantic-cream/50 rounded-2xl p-8 mb-8 animate-scale-in">
