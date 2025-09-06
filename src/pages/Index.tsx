@@ -77,38 +77,22 @@ export default function Index() {
       <section className="py-20 px-4 bg-white/50 backdrop-blur-sm">
         <div className="container mx-auto max-w-4xl">
           <Card className="bg-white/80 backdrop-blur-sm border-romantic-pink/30 shadow-2xl">
-            <CardContent className="p-8 md:p-12">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                {/* Photo */}
-                <div className="order-2 md:order-1">
-                  <div className="rounded-2xl overflow-hidden shadow-2xl animate-scale-in">
-                    <img 
-                      src="https://cdn.poehali.dev/files/27d1776e-dde1-4ab9-9a8d-5c63688af1de.png" 
-                      alt="Наше милое селфи" 
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
+            <CardContent className="p-8 md:p-12 text-center">
+              <div className="animate-float mb-6">
+                <Icon name="Mail" size={48} className="text-romantic-pink mx-auto" />
+              </div>
+              
+              <h3 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-8 animate-fade-in">Ну вот само же приглашение</h3>
+              
+              <div className="bg-romantic-cream/50 rounded-2xl p-8 mb-8 animate-scale-in">
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">Любимая ты моя, невзирая на всё, ты для меня важна и любима. Я тебя приглашаю на свидание, вот таким необычном образом. Предлагаю пойти на этой неделе, в будние дни или в выходные. Образ: ахуенно пиздатый, настроение: хорошее</p>
                 
-                {/* Text content */}
-                <div className="order-1 md:order-2 text-center md:text-left">
-                  <div className="animate-float mb-6 md:mx-0 mx-auto w-fit">
-                    <Icon name="Mail" size={48} className="text-romantic-pink" />
-                  </div>
-                  
-                  <h3 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-8 animate-fade-in">Ну вот само же приглашение</h3>
-                  
-                  <div className="bg-romantic-cream/50 rounded-2xl p-6 mb-8 animate-scale-in">
-                    <p className="font-romantic text-lg text-romantic-gray leading-relaxed mb-6">Любимая ты моя, невзирая на всё, ты для меня важна и любима. Я тебя приглашаю на свидание, вот таким необычном образом. Предлагаю пойти на этой неделе, в будние дни или в выходные. Образ: ахуенно пиздатый, настроение: хорошее</p>
-                    
-                    <p className="font-romantic text-lg text-romantic-gray leading-relaxed mb-6">
-                      Я хочу создать для нас особенный вечер, где время остановится, и будут только мы двое, 
-                      звезды над головой и бесконечная любовь в наших сердцах.
-                    </p>
-                    
-                    <p className="font-romantic text-xl text-romantic-pink font-semibold">Будь моей звездой в этот момент ✨</p>
-                  </div>
-                </div>
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">
+                  Я хочу создать для нас особенный вечер, где время остановится, и будут только мы двое, 
+                  звезды над головой и бесконечная любовь в наших сердцах.
+                </p>
+                
+                <p className="font-romantic text-xl text-romantic-pink font-semibold">Будь моей звездой в этот момент ✨</p>
               </div>
               
 
