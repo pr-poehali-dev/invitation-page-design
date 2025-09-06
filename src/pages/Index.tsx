@@ -95,24 +95,7 @@ export default function Index() {
                 <p className="font-romantic text-xl text-romantic-pink font-semibold">Будь моей звездой в этот момент ✨</p>
               </div>
               
-              <div className="">
-                <Button 
-                  size="lg" 
-                  className="bg-romantic-pink hover:bg-romantic-pink/90 text-romantic-gray font-romantic text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  <Icon name="Heart" size={20} className="mr-2" />
-                  С удовольствием! 💖
-                </Button>
-                
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="border-2 border-romantic-pink text-romantic-gray hover:bg-romantic-pink/10 font-romantic text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  <Icon name="MessageCircle" size={20} className="mr-2" />
-                  Расскажи подробнее
-                </Button>
-              </div>
+
             </CardContent>
           </Card>
         </div>
