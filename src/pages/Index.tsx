@@ -71,43 +71,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Photo Gallery Section */}
-      <section className="">
-        <div className="container rounded-none px-[838px] my-0 py-0 mx-[1202px]">
-          <div className="text-center mb-12">
-            <h2 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-4 animate-fade-in">Приглашение на Свидание</h2>
-            <p className="font-romantic text-romantic-gray/70 max-w-md mx-auto">Ваааууу, я в шоках</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {/* Photo cards */}
-            {[1, 2, 3, 4, 5, 6].map((index) => (
-              <Card key={index} className="group overflow-hidden bg-white/80 backdrop-blur-sm border-romantic-pink/20 shadow-lg hover:shadow-xl transition-all duration-300 animate-scale-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                <CardContent className="p-0">
-                  {index === 1 ? (
-                    <div className="aspect-square overflow-hidden">
-                      <img 
-                        src="https://cdn.poehali.dev/files/31d42c63-7d81-4d6c-a27e-6cf19b41adb8.png" 
-                        alt="Романтичное фото пары" 
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    </div>
-                  ) : (
-                    <div className="aspect-square bg-gradient-to-br from-romantic-rose to-romantic-lavender flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                      <div className="text-center">
-                        <Icon name="Image" size={48} className="text-romantic-gray/40 mx-auto mb-2" />
-                        <p className="text-romantic-gray/60 font-romantic text-sm">
-                          Место для фото #{index}
-                        </p>
-                      </div>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Personal Message Section */}
       <section className="py-20 px-4 bg-white/50 backdrop-blur-sm">
