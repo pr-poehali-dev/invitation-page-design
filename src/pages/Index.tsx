@@ -20,9 +20,7 @@ export default function Index() {
           
           <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">Ты готова к этому?</h1>
           
-          <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in">
-            Я приглашаю тебя провести особенный вечер, полный нежности, смеха и незабываемых моментов
-          </p>
+          <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in">"Что такое счастье? Счастье - это счастье. Счастье, это, мы, вместе" - Злата Константиновна</p>
           
           <Button 
             size="lg" 
