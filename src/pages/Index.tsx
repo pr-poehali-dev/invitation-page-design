@@ -53,18 +53,7 @@ export default function Index() {
                 Ты готова к этому?
               </h3>
               
-              {/* Image upload area */}
-              <div className="mb-6 animate-scale-in">
-                <div className="relative mx-auto w-48 h-32 md:w-56 md:h-36 rounded-2xl bg-gradient-to-br from-romantic-rose/20 to-romantic-lavender/30 border-2 border-dashed border-romantic-pink/40 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer hover:border-romantic-pink/60">
-                  <div className="text-center">
-                    <Icon name="ImagePlus" size={32} className="text-romantic-pink mx-auto mb-2 group-hover:scale-110 transition-transform duration-300" />
-                    <p className="font-romantic text-sm text-romantic-gray/70 group-hover:text-romantic-gray">
-                      Добавить фото
-                    </p>
-                  </div>
-                </div>
-              </div>
-
+              
               <blockquote className="bg-romantic-cream/40 rounded-xl p-6 mb-6 animate-scale-in">
                 <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">"Что такое счастье? Счастье, это счастье. Счастье - это вот, мы, вместе."</p>
                 <cite className="font-romantic text-romantic-pink font-semibold not-italic">— Злата Константиновна💫</cite>
