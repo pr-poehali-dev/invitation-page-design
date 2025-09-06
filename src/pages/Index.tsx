@@ -131,7 +131,7 @@ export default function Index() {
                 <p className="font-romantic text-xl text-romantic-pink font-semibold">Будь моей звездой в этот момент ✨</p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="">
                 <Button 
                   size="lg" 
                   className="bg-romantic-pink hover:bg-romantic-pink/90 text-romantic-gray font-romantic text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
