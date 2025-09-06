@@ -20,11 +20,7 @@ export default function Index() {
           
           <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">Ты готова к этому?</h1>
           
-          <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in">Cоздано при поддержке:
-- Массажный Салон "Коррекционочки"
-- Энергокомпания "Пингвини"
-- Федеральная Служба Безопасности
-- np s</p>
+          <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in text-center">Cоздано при поддержке: Массажный Салон "Коррекционочки", Энергокомпания "Пингвини"Ю Федеральная Служба Безопасности , np s</p>
           
           <Button 
             size="lg" 
@@ -59,12 +55,8 @@ export default function Index() {
               
 
               <blockquote className="bg-romantic-cream/40 rounded-xl p-6 mb-6 animate-scale-in">
-                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">
-                  "Создано при поддержке: Массажный Салон "Коррекционочки", Энергокомпания "Пингвини", Федеральная Служба Безопасности"
-                </p>
-                <cite className="font-romantic text-romantic-pink font-semibold not-italic">
-                  — np s
-                </cite>
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">"Что такое счастье? Счастье, это счастье. Счастье - это вот, мы, вместе."</p>
+                <cite className="font-romantic text-romantic-pink font-semibold not-italic">— Злата Константиновна💫</cite>
               </blockquote>
               
               <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">
