@@ -76,9 +76,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-4 animate-fade-in">Приглашение на Свидание</h2>
-            <p className="font-romantic text-romantic-gray/70 max-w-md mx-auto">
-              Каждое фото — это воспоминание, каждое воспоминание — часть нашей истории
-            </p>
+            <p className="font-romantic text-romantic-gray/70 max-w-md mx-auto">Ваааууу, я в шоках</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
