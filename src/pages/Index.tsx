@@ -72,8 +72,8 @@ export default function Index() {
       </section>
 
       {/* Photo Gallery Section */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto">
+      <section className="">
+        <div className="container rounded-none px-[838px] my-0 py-0 mx-[1202px]">
           <div className="text-center mb-12">
             <h2 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-4 animate-fade-in">Приглашение на Свидание</h2>
             <p className="font-romantic text-romantic-gray/70 max-w-md mx-auto">Ваааууу, я в шоках</p>
