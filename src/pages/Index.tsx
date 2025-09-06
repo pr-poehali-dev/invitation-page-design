@@ -18,10 +18,7 @@ export default function Index() {
             <Icon name="Heart" size={64} className="text-romantic-pink mx-auto mb-4" />
           </div>
           
-          <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">
-            Ты готова к незабываемому 
-            <span className="text-romantic-pink block mt-2">свиданию?</span>
-          </h1>
+          <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">Ты готова к этому?</h1>
           
           <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in">
             Я приглашаю тебя провести особенный вечер, полный нежности, смеха и незабываемых моментов
