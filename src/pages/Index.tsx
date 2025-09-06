@@ -118,24 +118,18 @@ export default function Index() {
                 <Icon name="Mail" size={48} className="text-romantic-pink mx-auto" />
               </div>
               
-              <h3 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-8 animate-fade-in">
-                Мое сердечное послание
-              </h3>
+              <h3 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-8 animate-fade-in">Ну вот само же приглашение</h3>
               
               <div className="bg-romantic-cream/50 rounded-2xl p-8 mb-8 animate-scale-in">
-                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">
-                  Дорогая, каждый день с тобой — это маленькое чудо. Твоя улыбка освещает мой мир, 
-                  а твой смех — самая прекрасная мелодия, которую я когда-либо слышал.
-                </p>
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">Любимая ты моя, невзирая на всё, ты для меня важна и любима. Я тебя приглашаю на свидание, вот таким необычном образом.
+Дату и время я предлагаю выбрать вместе. И место аналогичным образом.</p>
                 
                 <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">
                   Я хочу создать для нас особенный вечер, где время остановится, и будут только мы двое, 
                   звезды над головой и бесконечная любовь в наших сердцах.
                 </p>
                 
-                <p className="font-romantic text-xl text-romantic-pink font-semibold">
-                  Будь моей спутницей в этом романтическом путешествии? ✨
-                </p>
+                <p className="font-romantic text-xl text-romantic-pink font-semibold">Будь моей звездой в этот момент ✨</p>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
