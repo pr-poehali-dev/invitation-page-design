@@ -121,8 +121,7 @@ export default function Index() {
               <h3 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-8 animate-fade-in">Ну вот само же приглашение</h3>
               
               <div className="bg-romantic-cream/50 rounded-2xl p-8 mb-8 animate-scale-in">
-                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">Любимая ты моя, невзирая на всё, ты для меня важна и любима. Я тебя приглашаю на свидание, вот таким необычном образом.
-Дату и время я предлагаю выбрать вместе. И место аналогичным образом.</p>
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">Любимая ты моя, невзирая на всё, ты для меня важна и любима. Я тебя приглашаю на свидание, вот таким необычном образом. Предлагаю пойти на этой неделе, в будние дни или в выходные. Образ: ахуенно пиздатый, настроение: хорошее</p>
                 
                 <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed mb-6">
                   Я хочу создать для нас особенный вечер, где время остановится, и будут только мы двое, 
