@@ -43,6 +43,36 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Quote Section */}
+      <section className="py-16 px-4 bg-white/30 backdrop-blur-sm">
+        <div className="container mx-auto max-w-3xl">
+          <Card className="bg-white/70 backdrop-blur-sm border-romantic-pink/20 shadow-lg">
+            <CardContent className="p-8 md:p-10 text-center">
+              <div className="animate-float mb-6">
+                <Icon name="Quote" size={48} className="text-romantic-pink mx-auto" />
+              </div>
+              
+              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">
+                Ты готова к этому?
+              </h3>
+              
+              <blockquote className="bg-romantic-cream/40 rounded-xl p-6 mb-6 animate-scale-in">
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">
+                  "Что такое счастье? Счастье - это счастье. Счастье, это, мы, вместе"
+                </p>
+                <cite className="font-romantic text-romantic-pink font-semibold not-italic">
+                  — Злата Константиновна
+                </cite>
+              </blockquote>
+              
+              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">
+                Ниже йоу 💕
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Photo Gallery Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto">
