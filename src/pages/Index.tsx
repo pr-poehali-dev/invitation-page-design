@@ -49,9 +49,7 @@ export default function Index() {
                 <Icon name="Quote" size={48} className="text-romantic-pink mx-auto" />
               </div>
               
-              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">
-                Ты готова к этому?
-              </h3>
+              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">Великая цитата</h3>
               
               {/* Added image */}
               <div className="mb-6 animate-scale-in">
@@ -67,9 +65,7 @@ export default function Index() {
                 <cite className="font-romantic text-romantic-pink font-semibold not-italic">— Злата Константиновна💫</cite>
               </blockquote>
               
-              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">
-                Ниже йоу 💕
-              </p>
+              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">Идём дальше zzzлата</p>
             </CardContent>
           </Card>
         </div>
