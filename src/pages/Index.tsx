@@ -53,14 +53,31 @@ export default function Index() {
                 <Icon name="Quote" size={48} className="text-romantic-pink mx-auto" />
               </div>
               
-              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">Великие цитаты</h3>
+              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">
+                Ты готова к этому?
+              </h3>
+              
+              {/* Image placeholder with romantic styling */}
+              <div className="mb-6 animate-scale-in">
+                <div className="relative mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-romantic-rose to-romantic-lavender flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer">
+                  <Icon name="ImagePlus" size={48} className="text-romantic-gray/50 group-hover:text-romantic-gray/70 transition-colors duration-300" />
+                  <div className="absolute inset-0 rounded-full border-2 border-romantic-pink/30 group-hover:border-romantic-pink/50 transition-colors duration-300"></div>
+                </div>
+                <p className="font-romantic text-sm text-romantic-gray/60 mt-3">Нажмите, чтобы добавить фото</p>
+              </div>
               
               <blockquote className="bg-romantic-cream/40 rounded-xl p-6 mb-6 animate-scale-in">
-                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4"></p>
-                <cite className="font-romantic text-romantic-pink font-semibold not-italic">— Злата Константиновна💫</cite>
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">
+                  "Создано при поддержке: Массажный Салон "Коррекционочки", Энергокомпания "Пингвини", Федеральная Служба Безопасности"
+                </p>
+                <cite className="font-romantic text-romantic-pink font-semibold not-italic">
+                  — np s
+                </cite>
               </blockquote>
               
-              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">I love u</p>
+              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">
+                Ниже йоу 💕
+              </p>
             </CardContent>
           </Card>
         </div>
