@@ -18,7 +18,7 @@ export default function Index() {
             <Icon name="Heart" size={64} className="text-romantic-pink mx-auto mb-4" />
           </div>
           
-          <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">Ты готова к этому?</h1>
+          <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">ебать, это что?</h1>
           
           <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in text-center">Cоздано при поддержке: Массажный Салон "Коррекционочки", Энергокомпания "Пингвини", Федеральная Служба Безопасности , np s</p>
           
