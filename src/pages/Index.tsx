@@ -20,15 +20,16 @@ export default function Index() {
           
           <h1 className="font-romantic text-4xl md:text-6xl lg:text-7xl text-romantic-gray mb-6 animate-fade-in">Ты готова к этому?</h1>
           
-          <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in">"Что такое счастье? Счастье - это счастье. Счастье, это, мы, вместе" - Злата Константиновна</p>
+          <p className="font-romantic text-lg md:text-xl text-romantic-gray/80 max-w-2xl mx-auto mb-8 animate-fade-in">Cоздано при поддержке:
+- Массажный Салон "Коррекционочки"
+- Энергокомпания "Пингвини"
+- Федеральная Служба Безопасности
+- np s</p>
           
           <Button 
             size="lg" 
             className="bg-romantic-pink hover:bg-romantic-pink/90 text-romantic-gray font-romantic text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-scale-in"
-          >
-            <Icon name="Calendar" size={20} className="mr-2" />
-            Да, я согласна! 💕
-          </Button>
+          >Ниже йоу 💕</Button>
         </div>
         
         {/* Decorative hearts */}
@@ -52,22 +53,14 @@ export default function Index() {
                 <Icon name="Quote" size={48} className="text-romantic-pink mx-auto" />
               </div>
               
-              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">
-                Ты готова к этому?
-              </h3>
+              <h3 className="font-elegant text-2xl md:text-3xl text-romantic-gray mb-6 animate-fade-in">Великие цитаты</h3>
               
               <blockquote className="bg-romantic-cream/40 rounded-xl p-6 mb-6 animate-scale-in">
-                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">
-                  "Что такое счастье? Счастье - это счастье. Счастье, это, мы, вместе"
-                </p>
-                <cite className="font-romantic text-romantic-pink font-semibold not-italic">
-                  — Злата Константиновна
-                </cite>
+                <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4"></p>
+                <cite className="font-romantic text-romantic-pink font-semibold not-italic">— Злата Константиновна💫</cite>
               </blockquote>
               
-              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">
-                Ниже йоу 💕
-              </p>
+              <p className="font-romantic text-lg text-romantic-gray/80 animate-fade-in">I love u</p>
             </CardContent>
           </Card>
         </div>
@@ -77,9 +70,7 @@ export default function Index() {
       <section className="py-16 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-4 animate-fade-in">
-              Наши особенные моменты
-            </h2>
+            <h2 className="font-elegant text-3xl md:text-4xl text-romantic-gray mb-4 animate-fade-in">Приглашение на Свидание</h2>
             <p className="font-romantic text-romantic-gray/70 max-w-md mx-auto">
               Каждое фото — это воспоминание, каждое воспоминание — часть нашей истории
             </p>
