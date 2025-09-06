@@ -53,6 +53,14 @@ export default function Index() {
                 Ты готова к этому?
               </h3>
               
+              {/* Added image */}
+              <div className="mb-6 animate-scale-in">
+                <img 
+                  src="https://cdn.poehali.dev/files/9e0955e3-145a-4a6f-bd65-48e7f0e8a05b.png" 
+                  alt="Романтичное фото" 
+                  className="mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg border-4 border-romantic-pink/20 hover:border-romantic-pink/40 transition-all duration-300"
+                />
+              </div>
               
               <blockquote className="bg-romantic-cream/40 rounded-xl p-6 mb-6 animate-scale-in">
                 <p className="font-romantic text-lg md:text-xl text-romantic-gray leading-relaxed italic mb-4">"Что такое счастье? Счастье, это счастье. Счастье - это вот, мы, вместе."</p>
