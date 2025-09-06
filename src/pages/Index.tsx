@@ -157,9 +157,7 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="py-8 px-4 text-center">
-        <p className="font-romantic text-romantic-gray/60">
-          Создано с 💕 специально для тебя
-        </p>
+        <p className="font-romantic text-romantic-gray/60">i love you</p>
       </footer>
     </div>
   );
